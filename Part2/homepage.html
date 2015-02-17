@@ -1,8 +1,38 @@
 <!DOCTYPE html>
 <html>
+<style>
+#leftlist {
+	float: left;
+}
+#rightlist {
+
+	float: left;
+}
+#sidebar {
+	float: left;
+	width: 25%;
+}
+#content {
+	float: left;
+	width: 75%;
+}
+</style>
 <link href="badstyle.css" rel="stylesheet">
+<body>
 <h1> Mickael Zerihoun's resume </h1>
-<p class="aboutme"> My name is Mickael zerihoun. I am a french student studying Computing Science at the University of alberta. I am currently in my fourth year and am expected to graduate by April 2016.</p1>
+<div id="sidebar">
+	<h4> Projects </h4>
+		<dl>
+			<dt>Starcraft AI mod [C++]</dt>
+				<dd> Implemented Starcraft AI strategies using C++ to compete in a starcraft bot competition</dd>
+				<dd> Implemented startegy prioritization based off bot game results</dd>
+			<dt> Gender Differences Research Project [Python]</dt>
+				<dd> Creating front end application to display physiological characteristics captured using point light display.</dd>
+				<dd> Work in progress</dd>
+		</dl>
+</div>
+<div id="content">
+<p class="aboutme"> My name is Mickael zerihoun. I am a french student studying Computing Science at the University of alberta. I am currently in my fourth year and am expected to graduate by April 2016.</p>
 
 <h2> Professional History </h2>
 
@@ -27,5 +57,31 @@
 </table>
 
 <h3> What I have to offer</h3>
+<div id="leftlist">
+<strong>Languages</strong>
+<ul>
+	<li> C++ </li>
+	<li> C </li>
+	<li> Python </li>
+	<li> Java</li>
+	<li> PHP</li>
+	<li> C#</li>
+</ul>
+</div>
 
+<div id="rightlist">
+<strong>Technologies</strong>
+<ul>
+	<li> Visual Studio </li>
+	<li> Eclipse</li>
+	<li> Matlab </li>
+	<li> Oracle</li>
+	<li> Berkeley DB</li>
+	<li> JUnit</li>
+	<li> Unity</li>
+	<li> Frostbite Editor</li>
+</ul>
+</div>
+</div>
+</body>
 </html>
