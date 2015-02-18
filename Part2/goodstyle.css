@@ -3,17 +3,49 @@
 h1,h2,h3{ font-family: "Open Sans", sans-serif}
 h1 { 
 	max-width: 500px;
-	margin: auto
+	margin: auto;
+	width:1605px;
+	height:20%;
+	background:#406ADD;
+	color:#DDCA42;
+	margin-bottom:0;
+	padding:0.5cm;
+	border-style:groove;
+	border-width:medium;
+	border-radius:20px;
+  	background: -webkit-linear-gradient(#333, #eee);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
+body {
+	background: rgb(30,87,153); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(125,185,232,1) 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
+	
+	
+	
 
+}
 .clearfix {
   overflow: auto;
   zoom: 1;
+	padding:0.5cm;
+	border-style:groove;
+	border-width:medium;
+	border-radius:20px;
 }
 
 .aboutme {
 	float:left;
-	max-width: 300px;
+	max-width: 600px;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(100%);
+}
+#aboutmetitle {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(200%);	
 }
 
 #selfimage2{
@@ -21,7 +53,8 @@ h1 {
 	background-size: 100% 100%;
 	width: 256px;
 	height: 256px;
-	float: left;
+	float: right;
+
 }
 
 #leftlist {
@@ -36,14 +69,18 @@ h1 {
 #sidebar {
 	float: left;
 	width: 30%;
-	color: Chocolate; font-weight: bold; font-family:  "Open Sans", sans-serif;
-
+	font-weight: bold; font-family:  "Open Sans", sans-serif;
+	background-color:#D8D4D9;
+	padding:0.5cm;
+	border-style:groove;
+	border-width:medium;
+	border-radius:20px;
 }
 
 
 #content {
 	float: left;
 	width: 60%;
-	color: RebeccaPurple; font-weight: bold; font-family:  "Open Sans", sans-serif;
-
+	font-weight: bold; font-family:  "Open Sans", sans-serif;
+	
 }
