@@ -1,1 +1,50 @@
-h1 {font-family: Comic Sans Ms; font-style: italic;}
+h1,h2,h3,h4 {font-family: Comic Sans Ms; font-style: italic; color:pink;}
+body {
+	background-image: url(triforce.gif);
+}
+p {color:red; font-weight: bold; font-family: Comic Sans Ms;}
+#leftlist {
+	float: left;
+
+}
+#rightlist {
+
+	float: left;
+}
+#selfimage{
+	background-image: url(pic.jpg);
+	background-size: 100% 100%;
+	width: 256px;
+	height: 256px;
+}
+#sidebar {
+	float: left;
+	width: 30%;
+	color: Chocolate; font-weight: bold; font-family: Comic Sans Ms;
+	border: 2px solid #a1a1a1;
+    padding: 10px 40px; 
+    background: #dddddd;
+    width: 300px;
+    border-radius: 25px;
+}
+#sidebar:hover #triforce{
+background-image: url(giphy.gif);
+	background-size: 100% 100%;
+	width: 256px;
+	height: 256px;
+}
+
+#content {
+	float: left;
+	width: 60%;
+	color: RebeccaPurple; font-weight: bold; font-family: Comic Sans Ms;
+	border: 2px solid #a1a1a1;
+    padding: 10px 40px; 
+    background: #afbddd;
+    
+    border-radius: 25px;
+}
+#content:hover{
+background-image: url(rustle.gif);
+	background-size: 100% 100%;
+};

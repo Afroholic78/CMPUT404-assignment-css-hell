@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+h1,h2,h3{ font-family: "Open Sans", sans-serif}
+h1 { 
+	max-width: 500px;
+	margin: auto
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.aboutme {
+	float:left;
+	max-width: 300px;
+}
+
+#selfimage2{
+	background-image: url(pic.jpg);
+	background-size: 100% 100%;
+	width: 256px;
+	height: 256px;
+	float: left;
+}
+
+#leftlist {
+	float: left;
+
+}
+#rightlist {
+
+	float: left;
+}
+
+#sidebar {
+	float: left;
+	width: 30%;
+	color: Chocolate; font-weight: bold; font-family:  "Open Sans", sans-serif;
+
+}
+
+
+#content {
+	float: left;
+	width: 60%;
+	color: RebeccaPurple; font-weight: bold; font-family:  "Open Sans", sans-serif;
+
+}
