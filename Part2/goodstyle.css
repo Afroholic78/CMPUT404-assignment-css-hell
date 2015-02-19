@@ -2,21 +2,18 @@
 
 h1,h2,h3{ font-family: "Open Sans", sans-serif}
 h1 { 
-	max-width: 500px;
+	text-align: center;
 	margin: auto;
 	width:1605px;
 	height:20%;
-	background:#406ADD;
-	color:#DDCA42;
+	
 	margin-bottom:0;
 	padding:0.5cm;
 	border-style:groove;
 	border-width:medium;
 	border-radius:20px;
 
-  	background: -webkit-linear-gradient(#333, #eee);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+  	
 }
 body {
 	background: rgb(30,87,153); /* Old browsers */
@@ -24,10 +21,11 @@ body {
 	background: -webkit-linear-gradient(left,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
 }
 
+
+
 tr.border_bottom td {
   border-bottom:1pt solid black;
 }
-
 
 .clearfix {
   overflow: auto;
@@ -64,15 +62,16 @@ tr.border_bottom td {
   	transform: translateY(-20%);
 
 }
+
 .profhist {
 	padding:0.5cm;
 	border-style:groove;
 	border-width:medium;
 	border-radius:20px;
-		max-width: 1090px;
-
+	width: auto;
 
 }
+
 #leftlist {
 	margin: 0 auto;
 	float: left;
@@ -85,7 +84,7 @@ tr.border_bottom td {
 
 #sidebar {
 	float: left;
-	width: 30%;
+	width: 37%;
 	font-weight: bold; font-family:  "Open Sans", sans-serif;
 	background-color:#D8D4D9;
 	padding:0.5cm;
